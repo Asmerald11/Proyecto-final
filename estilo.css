@@ -13,7 +13,8 @@
 }
 
 img {
-    max-width: 100%;
+    width: 90%;
+    height: 70%;
 }
 
 .image {
@@ -27,21 +28,23 @@ img {
     padding-left: 20px;
     display: inline-block;
     width: 54%;
-
+    vertical-align: middle;
+    text-align: center;
 }
 
 .image2 {
     flex-basis: 40%;
     display: inline-block;
-    width: 100%;
+    width: 45%;
 }
 
 .text2 {
     font-size: 20px;
     padding-right: 20px;
-    text-align: left;
+    text-align: center;
     display: inline-block;
-    width: 54%;
+    width: 50%;
+    vertical-align: middle;
 }
 
 .header {
